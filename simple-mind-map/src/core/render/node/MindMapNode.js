@@ -458,9 +458,9 @@ class MindMapNode {
 
   //  激活节点
   active(e) {
-    if (this.mindMap.opt.readonly) {
-      return
-    }
+    // if (this.mindMap.opt.readonly) {
+    //   return
+    // }
     e && e.stopPropagation()
     if (this.getData('isActive')) {
       return
